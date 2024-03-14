@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace RepoApp
 {
-    internal class Product:Entity
+    public abstract class Entity
     {
-        public string Name { get; set; }
-        public decimal Price { get; set; } 
+        public int ID { get; set; }
     }
 }
